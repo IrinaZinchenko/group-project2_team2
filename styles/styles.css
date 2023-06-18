@@ -53,7 +53,7 @@ main {
 #main-top {
   background: radial-gradient(36.28% 150.93% at 50% 50%, #3B8AFFB3 0%, #0048B3 100%), url(../images/Circles.svg);
   background-repeat: no-repeat;
-  background-size: 100% 65%;
+  background-size: 100% 70%;
   grid-column: 1/3;
   grid-row: 1/2;
   width: 100%;
@@ -103,19 +103,10 @@ main {
 }
 
 .card {
-  width: 40%;
-  height: 50%;
   display: flex;
   text-align: end;
   justify-content: space-between;
   flex-wrap: nowrap;
-}
-
-.progress_1 {
-  position: absolute;
-  width: 40%;
-  height: 50%;
-  left: 5px;
 }
 
 .card-title {
@@ -123,8 +114,17 @@ main {
 
 }
 
-.card_body {
-  box-shadow: 0px 10px 30px rgba(17, 38, 146, 0.05);
+.card-body {
+  display: flex;
+  align-items: center;
+}
+
+.card-body__image {
+  width: 40%;
+}
+
+.card-body__text {
+  width: 60%;
 }
 
 .main-top-cards {
