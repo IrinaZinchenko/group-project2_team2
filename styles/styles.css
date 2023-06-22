@@ -4,7 +4,7 @@ body {
 
   display: grid;
   grid-template-columns: 1fr 5fr;
-  grid-template-rows: 50px 1fr;
+  grid-template-rows: 70px 1fr;
 }
 
 img {
@@ -20,6 +20,58 @@ header {
   grid-row: 1/2;
 
   border: 1px solid black;
+
+  height: 100%;
+}
+
+#logo a span {
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 43px;
+  color: #232D42;
+}
+
+#search-container button {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+#search-container button:active {
+  transform: translate(0, 1px);
+}
+
+#search-container input {
+  border: none;
+  outline: none;
+}
+
+#search-container input::placeholder {
+  font-size: 16px;
+  line-height: 28px;
+  color: #ADB5BD;
+}
+
+#userbar,
+#userbar__user-profile {
+  display: flex;
+  height: 100%;
+}
+
+#userbar img {
+  cursor: pointer;
+}
+
+#userbar__name {
+  font-size: 16px;
+  line-height: 20px;
+  color: #232D42;
+}
+
+#userbar__position {
+  font-size: 13px;
+  line-height: 17px;
+  color: #8A92A6;
 }
 
 /* конец */
