@@ -21,7 +21,8 @@ header {
 
   border: 1px solid black;
 
-  height: 100%;
+  height: 70px;
+  background-color: #FFFFFF;
 }
 
 #logo a span {
@@ -50,12 +51,6 @@ header {
   font-size: 16px;
   line-height: 28px;
   color: #ADB5BD;
-}
-
-#userbar,
-#userbar__user-profile {
-  display: flex;
-  height: 100%;
 }
 
 #userbar img {
