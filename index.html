@@ -13,8 +13,68 @@
 
 <body>
   <!-- Начало пространства Иры -->
-  <header>
-    <p>Здесь работает Ира</p>
+  <header id="header" class="d-flex align-items-center  px-3">
+    <!-- Потом добавить fixed-top -->
+
+    <div id="logo" class="d-flex align-items-center justify-content-between">
+      <a href="./index.html" class="navbar-brand d-flex align-items-center gap-2">
+        <img src="./images/logo.svg" alt="logo" width="28" height="28" class="d-inline-block align-text-top">
+        <span>Hope UI</span>
+      </a>
+    </div>
+
+
+    <div id="search" class="ms-5">
+      <div id="search-container" class="input-group form-control">
+        <button class="pe-2 pb-1" type="submit">
+          <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="10.1015" cy="9.88476" rx="9.10146" ry="8.88476" stroke="#ADB5BD" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M16.4316 16.5273L19.9999 20.0016" stroke="#ADB5BD" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </button>
+        <input type="text" placeholder="Search…">
+      </div>
+    </div>
+
+    <div id="userbar" class="d-flex align-items-center gap-3 ms-auto">
+      <img src="./images/language.svg" alt="language">
+      <img src="./images/notification-icon.svg" alt="notification">
+      <img src="./images/mail-icon.svg" alt="mail">
+      <a id="userbar__user-profile" class="nav-link nav-profile d-flex align-items-center gap-3" href="#"
+        data-bs-toggle="dropdown">
+        <img src="./images/profile-photo.png" alt="profile">
+        <div id="userbar__user-name">
+          <p id="userbar__name" class="m-0">Austin Robertson</p>
+          <p id="userbar__position" class="m-0">Marketing Administrator</p>
+        </div>
+      </a>
+
+      <ul class="dropdown-menu profile">
+        <li>
+          <a class="dropdown-item d-flex align-items-center" href="#!">
+            <span>My Profile</span>
+          </a>
+        </li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li>
+          <a class="dropdown-item d-flex align-items-center" href="#!">
+            <span>Account Settings</span>
+          </a>
+        </li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li>
+          <a class="dropdown-item d-flex align-items-center" href="#!">
+            <span>Sign Out</span>
+          </a>
+        </li>
+      </ul>
+    </div>
   </header>
   <!-- Конец пространства Иры -->
 
