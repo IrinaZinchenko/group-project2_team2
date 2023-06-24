@@ -74,11 +74,20 @@ header {
 
 /* Рабочее пространство Чулпан */
 /* начало */
-nav {
+aside {
   grid-column: 1/2;
   grid-row: 2/3;
 
   border: 1px solid black;
+  
+  background-image: url(../images/nav_background_sharp.svg);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: bottom left;
+}
+
+.sidebar-nav{
+  list-style-type: none;
 }
 
 /* конец */
