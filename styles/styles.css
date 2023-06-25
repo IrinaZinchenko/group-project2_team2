@@ -69,6 +69,13 @@ main {
   border: 1px solid black;
 }
 
+
+
+#Title-radiabar_select {
+  width: 150px;
+  border: 0px;
+}
+
 /* конец */
 
 
