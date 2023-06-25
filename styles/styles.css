@@ -3,7 +3,7 @@ body {
   height: 100vh;
 
   display: grid;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 250px 5fr;
   grid-template-rows: 70px 1fr;
 }
 
@@ -82,14 +82,19 @@ aside {
   
   background-image: url(../images/nav_background_sharp.svg);
   background-repeat: no-repeat;
-  background-size: 70%;
-  background-position: bottom left;
+  background-size: 125px;
+  background-position: bottom 50px left;
 }
 
 .sidebar-nav{
   list-style-type: none;
+  font-size: 16px;
 }
 
+.nav-item:hover{
+  background-color: #3A57E8;
+  color: white;
+}
 /* конец */
 
 main {
