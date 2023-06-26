@@ -187,6 +187,10 @@ main {
   gap: 54px;
 }
 
+.btn-success {
+  background-color: #08B1BA !important;
+}
+
 .container__1 {
   display: flex;
   justify-content: space-between;
