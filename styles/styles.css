@@ -91,6 +91,7 @@ aside {
 .nav-item:hover {
   background-color: #3A57E8;
   color: white;
+  cursor: pointer;
 }
 
 /* конец */
