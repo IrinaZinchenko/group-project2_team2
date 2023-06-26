@@ -47,8 +47,6 @@ header {
 }
 
 #search-container input::placeholder {
-  font-size: 16px;
-  line-height: 28px;
   color: #ADB5BD;
 }
 
@@ -101,7 +99,7 @@ main {
   grid-row: 2/3;
 
   display: grid;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 3.5fr 1.5fr;
   grid-template-rows: 301px 1fr;
 
   background-color: #E9ECEF;
@@ -204,11 +202,22 @@ main {
   border: 1px solid black;
 }
 
+#gross-sales__legend1 {
+  height: 24px;
+  background: url(../images/blue-circle.svg) no-repeat left center;
+}
 
+#gross-sales__legend2 {
+  height: 24px;
+  background: url(../images/turquoise-circle.svg) no-repeat left center;
+}
 
-#Title-radiabar_select {
-  width: 150px;
+#title-radiabar_select1,
+#title-radiabar_select2,
+#title-radiabar_select3 {
+  width: 135px;
   border: 0px;
+  height: 50px;
 }
 
 /* конец */
