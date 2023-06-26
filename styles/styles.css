@@ -1,9 +1,8 @@
 body {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
 
   display: grid;
-  grid-template-columns: 250px 5fr;
+  grid-template-columns: 250px 1fr;
   grid-template-rows: 70px 1fr;
 }
 
@@ -60,13 +59,11 @@ header {
 #userbar__name {
   font-size: 16px;
   line-height: 20px;
-  color: #232D42;
 }
 
 #userbar__position {
   font-size: 13px;
   line-height: 17px;
-  color: #8A92A6;
 }
 
 /* конец */
@@ -79,22 +76,23 @@ aside {
   grid-row: 2/3;
 
   border: 1px solid black;
-  
+
   background-image: url(../images/nav_background_sharp.svg);
   background-repeat: no-repeat;
   background-size: 125px;
   background-position: bottom 50px left;
 }
 
-.sidebar-nav{
+.sidebar-nav {
   list-style-type: none;
   font-size: 16px;
 }
 
-.nav-item:hover{
+.nav-item:hover {
   background-color: #3A57E8;
   color: white;
 }
+
 /* конец */
 
 main {
@@ -105,6 +103,7 @@ main {
   grid-template-columns: 3fr 2fr;
   grid-template-rows: 301px 1fr;
 
+  background-color: #E9ECEF;
   border: 1px solid black;
 }
 
