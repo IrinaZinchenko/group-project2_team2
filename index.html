@@ -10,7 +10,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 </head>
 
 <body>
@@ -45,8 +45,8 @@
         data-bs-toggle="dropdown">
         <img src="./images/profile-photo.png" alt="profile">
         <div id="userbar__user-name">
-          <p id="userbar__name" class="m-0">Austin Robertson</p>
-          <p id="userbar__position" class="m-0">Marketing Administrator</p>
+          <p id="userbar__name" class="m-0 text-body">Austin Robertson</p>
+          <p id="userbar__position" class="m-0 text-black-50">Marketing Administrator</p>
         </div>
       </a>
 
@@ -78,131 +78,140 @@
   <!-- Конец пространства Иры -->
 
   <!-- Начало пространства Чулпан -->
-
   <aside class="sidebar">
     <ul class="sidebar-nav font-weight-bold text-black-50">
-      <li class="nav-heading mt-1">Home</li>
 
-      <li class="nav-item d-flex mt-1 me-4">
-        <a class="nav-link" href="">
+      <li class="nav-heading mt-3">
+        <span>Home</span>
+      </li>
+
+      <li class="nav-item d-flex mt-1 me-4 p-1 rounded">
+        <a class="nav-link" href="#!">
           <i class="bi bi-grid pe-1"></i>
           <span>Dashboard</span>
         </a>
       </li>
 
-      <li class="nav-item dropdown d-flex mt-1 me-4">
+      <li class="nav-item d-flex mt-1 me-4 p-1 rounded">
         <i class="bi bi-toggles2 pe-2"></i>
-        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Menu Style
+        <a class="nav-link" href="#!" role="button">
+          <span>Menu Style</span>
         </a>
         <i class="bi bi-chevron-down ms-auto"></i>
-        
       </li>
 
-      <hr>
+      <li>
+        <hr>
+      </li>
 
+      <li class="nav-heading mt-1">
+        <span>Pages</span>
+      </li>
 
-      <li class="nav-heading mt-1">Pages</li>
-
-      <li class="nav-item dropdown d-flex me-4">
+      <li class="nav-item d-flex mt-1 me-4 p-1 rounded">
         <i class="bi bi-controller pe-2"></i>
-        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Example
+        <a class="nav-link" href="#!" role="button">
+          <span>Example</span>
         </a>
         <i class="bi bi-chevron-down ms-auto"></i>
       </li>
 
-      <li class="nav-item dropdown d-flex mt-1 me-4">
+      <li class="nav-item d-flex mt-1 me-4 p-1 rounded">
         <i class="bi bi-ticket pe-2"></i>
-        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Widgets
+        <a class="nav-link" href="#!" role="button">
+          <span>Widgets</span>
         </a>
         <i class="bi bi-chevron-down ms-auto"></i>
       </li>
 
-      <li class="nav-item dropdown d-flex mt-1 me-4">
+      <li class="nav-item d-flex mt-1 me-4 p-1 rounded">
         <i class="bi bi-geo-alt pe-2"></i>
-        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Maps
+        <a class="nav-link" href="#!" role="button">
+          <span>Maps</span>
         </a>
         <i class="bi bi-chevron-down ms-auto"></i>
       </li>
 
-      <li class="nav-item dropdown d-flex mt-1 me-4">
+      <li class="nav-item d-flex mt-1 me-4 p-1 rounded">
         <i class="bi bi-shield-check pe-2"></i>
-        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Authentication
+        <a class="nav-link" href="#!" role="button">
+          <span>Authentication</span>
         </a>
         <i class="bi bi-chevron-down ms-auto"></i>
       </li>
 
-      <li class="nav-item dropdown d-flex mt-1 me-4">
+      <li class="nav-item d-flex mt-1 me-4 p-1 rounded">
         <i class="bi bi-people pe-2"></i>
-        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Users
+        <a class="nav-link" href="#!" role="button">
+          <span>Users</span>
         </a>
         <i class="bi bi-chevron-down ms-auto"></i>
       </li>
 
-      <li class="nav-item d-flex mt-1 me-4">
-        <a class="nav-link" href="">
+      <li class="nav-item d-flex mt-1 me-4 p-1 rounded">
+        <a class="nav-link" href="#!">
           <i class="bi bi-exclamation-circle pe-1"></i>
           <span>Error 404</span>
         </a>
       </li>
 
-      <li class="nav-item d-flex mt-1 me-4">
-        <a class="nav-link" href="">
+      <li class="nav-item d-flex mt-1 me-4 p-1 rounded">
+        <a class="nav-link" href="#!">
           <i class="bi bi-exclamation-triangle pe-1"></i>
           <span>Error 505</span>
         </a>
       </li>
 
-      <li class="nav-item d-flex mt-1 me-4">
-        <a class="nav-link" href="">
+      <li class="nav-item d-flex mt-1 me-4 p-1 rounded">
+        <a class="nav-link" href="#!">
           <i class="bi bi-bookmarks pe-1"></i>
           <span>Maintence</span>
         </a>
       </li>
 
-      <hr>
+      <li>
+        <hr>
+      </li>
 
+      <li class="nav-heading mt-1">
+        <span>Elements</span>
+      </li>
 
-      <li class="nav-heading mt-1">Elements</li>
-
-      <li class="nav-item dropdown d-flex mt-1 me-4">
+      <li class="nav-item d-flex mt-1 me-4 p-1 rounded">
         <i class="bi bi-wallet2 pe-2"></i>
-        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Components
+        <a class="nav-link" href="#!" role="button">
+          <span>Components</span>
         </a>
         <i class="bi bi-chevron-down ms-auto"></i>
       </li>
 
-      <li class="nav-item dropdown d-flex mt-1 me-4">
+      <li class="nav-item d-flex mt-1 me-4 p-1 rounded">
         <i class="bi bi-card-text pe-2"></i>
-        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Form
+        <a class="nav-link" href="#!" role="button">
+          <span>Form</span>
         </a>
         <i class="bi bi-chevron-down ms-auto"></i>
       </li>
 
-      <li class="nav-item dropdown d-flex mt-1 me-4">
+      <li class="nav-item d-flex mt-1 me-4 p-1 rounded">
         <i class="bi bi-gear pe-2"></i>
-        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Table
+        <a class="nav-link" href="#!" role="button">
+          <span>Table</span>
         </a>
         <i class="bi bi-chevron-down ms-auto"></i>
       </li>
 
-      <li class="nav-item dropdown d-flex mt-1 me-4">
+      <li class="nav-item d-flex mt-1 me-4 p-1 rounded">
         <i class="bi bi-info pe-2"></i>
-        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          icons
+        <a class="nav-link" href="#!" role="button">
+          <span>Icons</span>
         </a>
         <i class="bi bi-chevron-down ms-auto"></i>
       </li>
 
-      <hr>
+      <li>
+        <hr>
+      </li>
     </ul>
   </aside>
   <!-- Конец пространства Чулпан -->
